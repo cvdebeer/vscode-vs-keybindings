@@ -23,7 +23,9 @@
     "preview": true,
     "icon": "visualstudio-keyboard.png",
     "contributes": {
-        "keybindings": [
+        "keybindings": "win": "<keyboard shortcut for windows",
+    "key": "<default keyboard shortcut>",
+    "command": "<name of the command in VS Code"
             {
                 "key": "ctrl+shift+b",
                 "command": "workbench.action.tasks.build"
